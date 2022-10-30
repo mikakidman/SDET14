@@ -56,6 +56,15 @@ if(breed.length()>20){
    String getName(){
        return name;
    }
+   String getBreed(){
+       return breed;
+   }
+   int getAge(){
+       return age;
+   }
+   double getWeight(){
+       return weight;
+   }
     void printInfo(){
         System.out.println("Name "+ name + " Breed "+ breed+ " Age "+age+" Weight " + weight);
     }
