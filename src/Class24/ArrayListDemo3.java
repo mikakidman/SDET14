@@ -5,6 +5,8 @@ import java.util.ArrayList;
 public class ArrayListDemo3 {
     public static void main(String[] args) {
         ArrayList<Character> chars=new ArrayList<>();
+        //ArrayList<Character> chars=new ArrayList<>(new ArrayList<>(Arrays.aslist('E','F'));
+
         chars.add('A');
         chars.add('B');
         chars.add('C');
